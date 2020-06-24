@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: mrostanski/errorpager
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
